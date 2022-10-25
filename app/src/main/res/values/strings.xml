@@ -1,0 +1,98 @@
+<resources>
+    <string name="app_name">Generador CURP</string>
+    <string name="name">Nombre(s)</string>
+    <string name="last_name">Primer Apellido</string>
+    <string name="second_last_name">Segundo Apellido</string>
+    <string name="birth_date">Fecha de nacimiento</string>
+    <string name="select_gender">Sexo</string>
+    <string name="male">Hombre</string>
+    <string name="female">Mujer</string>
+    <string name="select_state">Selecciona el estado de nacimiento</string>
+    <string name="titulo">Generador de CURP</string>
+    <string name="calculate">Calcular</string>
+    <string name="select_date">Seleccione la fecha de nacimiento</string>
+
+    <string name="name_required">Nombre requerido</string>
+    <string name="first_lastname_required">Primer apellido requerido"</string>
+    <string name="birthdate_required">Fecha de nacimiento requerida (aaaa/mm/dd)</string>
+    <string name="gender_required">Sexo requerido</string>
+    <string name="state_required">Estado de nacimiento requerido</string>
+    <string name="curp_generated">CURP generada con exito</string>
+    <string name="copy_curp">COPIAR CURP GENERADA</string>
+    <string name="curp_generated_description">La CURP generada en esta app es unicamente un calculo a partir del algoritmo brindado. Si desea conocer la CURP real visite el citio web del Gobierno de México</string>
+    <string name="curp_copied">CURP copiada en portapapeles</string>
+    <string name="curp">CURP</string>
+    <string name="llene_datos_requeridos">Por favor ingrese los datos requeridos para poder calcular la CURP</string>
+    <string name="select_a_valid_state">Seleccione un estado valido</string>
+    <string-array name="state_list">
+        <item>Selecciona el estado de nacimiento</item>
+        <item>AGUASCALIENTES</item>
+        <item>BAJA CALIFORNIA</item>
+        <item>BAJA CALIFORNIA SUR</item>
+        <item>CAMPECHE</item>
+        <item>COAHUILA</item>
+        <item>COLIMA</item>
+        <item>CHIAPAS</item>
+        <item>CHIHUAHUA</item>
+        <item>DISTRITO FEDERAL</item>
+        <item>DURANGO</item>
+        <item>GUANAJUATO</item>
+        <item>GUERRERO</item>
+        <item>HIDALGO</item>
+        <item>JALISCO</item>
+        <item>EDO MEXICO</item>
+        <item>MICHOACÁN</item>
+        <item>MORELOS</item>
+        <item>NAYARIT</item>
+        <item>NUEVO LEON</item>
+        <item>OAXACA</item>
+        <item>PUEBLA</item>
+        <item>QUERÉTARO</item>
+        <item>QUINTANA ROO</item>
+        <item>SAN LUIS POTOSÍ</item>
+        <item>SINALOA</item>
+        <item>SONORA</item>
+        <item>TABASCO</item>
+        <item>TAMAULIPAS</item>
+        <item>TLAXCALA</item>
+        <item>VERACRUZ</item>
+        <item>YUCATÁN</item>
+        <item>ZACATECAS</item>
+    </string-array>
+
+    <string-array name="state_list_ab">
+        <item> </item>
+        <item>AS</item>
+        <item>BC</item>
+        <item>BS</item>
+        <item>CC</item>
+        <item>CL</item>
+        <item>CM</item>
+        <item>CS</item>
+        <item>CH</item>
+        <item>DF</item>
+        <item>DG</item>
+        <item>GT</item>
+        <item>GR</item>
+        <item>HG</item>
+        <item>JC</item>
+        <item>MC</item>
+        <item>MN</item>
+        <item>MS</item>
+        <item>NT</item>
+        <item>NL</item>
+        <item>OC</item>
+        <item>PL</item>
+        <item>QT</item>
+        <item>QR</item>
+        <item>SP</item>
+        <item>SL</item>
+        <item>QR</item>
+        <item>TC</item>
+        <item>TC</item>
+        <item>TL</item>
+        <item>VZ</item>
+        <item>YN</item>
+        <item>ZS</item>
+    </string-array>
+</resources>
