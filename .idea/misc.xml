@@ -7,16 +7,19 @@
         <entry key="..\:/Users/jacob/AndroidStudioProjects/CURPCALCULATOR/app/src/main/res/drawable/background_spinner.xml" value="0.2275" />
         <entry key="..\:/Users/jacob/AndroidStudioProjects/CURPCALCULATOR/app/src/main/res/drawable/calendar_icon.xml" value="0.254" />
         <entry key="..\:/Users/jacob/AndroidStudioProjects/CURPCALCULATOR/app/src/main/res/drawable/check.xml" value="0.1925" />
+        <entry key="..\:/Users/jacob/AndroidStudioProjects/CURPCALCULATOR/app/src/main/res/drawable/ic_about.xml" value="0.1" />
         <entry key="..\:/Users/jacob/AndroidStudioProjects/CURPCALCULATOR/app/src/main/res/drawable/ic_copy.xml" value="0.1" />
         <entry key="..\:/Users/jacob/AndroidStudioProjects/CURPCALCULATOR/app/src/main/res/drawable/location_icon.xml" value="0.2275" />
         <entry key="..\:/Users/jacob/AndroidStudioProjects/CURPCALCULATOR/app/src/main/res/drawable/progress_dialog.xml" value="0.1195" />
         <entry key="..\:/Users/jacob/AndroidStudioProjects/CURPCALCULATOR/app/src/main/res/drawable/search_person_icon.xml" value="0.203" />
+        <entry key="..\:/Users/jacob/AndroidStudioProjects/CURPCALCULATOR/app/src/main/res/layout/activity_about.xml" value="0.2" />
         <entry key="..\:/Users/jacob/AndroidStudioProjects/CURPCALCULATOR/app/src/main/res/layout/activity_main.xml" value="0.264" />
-        <entry key="..\:/Users/jacob/AndroidStudioProjects/CURPCALCULATOR/app/src/main/res/layout/activity_show_curp.xml" value="0.264" />
+        <entry key="..\:/Users/jacob/AndroidStudioProjects/CURPCALCULATOR/app/src/main/res/layout/activity_show_curp.xml" value="0.2" />
         <entry key="..\:/Users/jacob/AndroidStudioProjects/CURPCALCULATOR/app/src/main/res/layout/activity_show_curpgenerated.xml" value="0.10833333333333334" />
         <entry key="..\:/Users/jacob/AndroidStudioProjects/CURPCALCULATOR/app/src/main/res/layout/custom_progress_dialog.xml" value="0.10833333333333334" />
         <entry key="..\:/Users/jacob/AndroidStudioProjects/CURPCALCULATOR/app/src/main/res/layout/spinner_dropdown.xml" value="0.24739583333333334" />
         <entry key="..\:/Users/jacob/AndroidStudioProjects/CURPCALCULATOR/app/src/main/res/layout/spinner_text.xml" value="0.24739583333333334" />
+        <entry key="..\:/Users/jacob/AndroidStudioProjects/CURPCALCULATOR/app/src/main/res/menu/top_app_bar.xml" value="0.148046875" />
         <entry key="..\:/Users/jacob/AndroidStudioProjects/CURPCALCULATOR/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1435" />
       </map>
     </option>

@@ -102,6 +102,16 @@ class MainActivity : AppCompatActivity(), View.OnTouchListener,
         binding.buttonCalculate.setOnClickListener {
             openActivityToShowCURPCalculated()
         }
+
+        binding.appBar.setOnMenuItemClickListener {
+            when (it.itemId) {
+                R.id.about -> {
+                    AboutActivity.startActivity(this)
+                    true
+                }
+                else -> false
+            }
+        }
     }
 
     private fun openActivityToShowCURPCalculated() {
@@ -111,8 +121,8 @@ class MainActivity : AppCompatActivity(), View.OnTouchListener,
         val sexo: Char =
             if (binding.radioGroup.checkedRadioButtonId == R.id.radio_button_1) 'M' else 'H'
         val fechaNacimiento = editTextBirthDate.text.toString()
-        val estadoNacimiento = resources.getStringArray(R.array.state_list_ab)
-            .get(binding.textFieldState.selectedItemPosition)
+        val estadoNacimiento =
+            resources.getStringArray(R.array.state_list_ab)[binding.textFieldState.selectedItemPosition]
 
         val CURPFields = FieldsCURP(
             nombre,
@@ -184,7 +194,7 @@ class MainActivity : AppCompatActivity(), View.OnTouchListener,
         if (binding.radioGroup.checkedRadioButtonId == -1)
             invalid = true
 
-        if(binding.textFieldState.selectedItemPosition == 0){
+        if (binding.textFieldState.selectedItemPosition == 0) {
             invalid = true
         }
         binding.buttonCalculate.isEnabled = !invalid

@@ -27,7 +27,6 @@ class GenerateCURPViewModel : ViewModel() {
     private fun getCURP(curpFields: FieldsCURP): String {
         var curp = ""
         with(curpFields) {
-            //primer caracter
             curp += primerApellido[0]
             curp += obtenerPrimeraVocal(primerApellido)
             curp += if (segundoApellido.isNullOrEmpty()) "X" else segundoApellido[0]
